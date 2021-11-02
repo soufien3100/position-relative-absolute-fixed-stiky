@@ -1,0 +1,59 @@
+body {
+    height: 200vh;
+    width: 200vw;
+}
+
+.boite {
+    display: inline-block;
+    background: orange;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 50px;
+}
+
+#relatif1 {
+    position: relative;
+    top: 30px;
+    border: 1px green solid;
+}
+
+#relatif2 {
+    position: relative;
+    top: 30px;
+    left: -10px;
+    border: 1px yellow solid;
+}
+
+#absolu1 {
+    position: absolute;
+    top: 320px;
+    border: 1px purple solid;
+}
+
+.container {
+    position: relative;
+    height: 200px;
+    width: 500px;
+    box-sizing: border-box;
+    border: 5px red solid;
+}
+
+#absolu2 {
+    position: absolute;
+    top: px;
+    border: 1px orange solid;
+}
+
+#fixed1 {
+    position: fixed;
+    top: 650px;
+    left: 300px;
+    border: 1px #1fef solid;
+}
+
+#sticky1 {
+    position: sticky;
+    top: 650px;
+    left: 50px;
+    border: 1px black solid;
+}
